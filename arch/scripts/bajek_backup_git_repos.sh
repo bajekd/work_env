@@ -3,9 +3,9 @@
 # --------------------
 # Remove .git folder and make .tar.gz file from each of following repos:
 #   backups
-#   other_projects
-#   python_projects
-#   ruby_projects
+#   python
+#   ruby
+#   rails
 #   work_env
 # --------------------
 
@@ -18,7 +18,7 @@ compressed_file="$HOME/Downloads/backups_$current_date.tar.gz"
 
 echo -e "\nBacking up backups repo\n"
 if [ ! -d "$target_dir" ]; then
-  git clone git@github.com:blazejdobek/backups.git
+  git clone git@github.com:bajekd/backups.git
 fi
 
 rm -rf $target_dir/.git
@@ -30,61 +30,61 @@ mv $compressed_file ~/MEGA/backups
 rm -rf $target_dir
 
 # --------------------
-# backup other_projects repo
+# backup python repo
 # --------------------
-target_dir="$HOME/Downloads/other_projects"
+target_dir="$HOME/Downloads/python"
 current_date=$(date -u +%d_%m_%y) # UTC time
-compressed_file="$HOME/Downloads/other_projects_$current_date.tar.gz"
+compressed_file="$HOME/Downloads/python_$current_date.tar.gz"
 
-echo -e "\nBacking up other_projects repo\n"
+echo -e "\nBacking up python repo\n"
 if [ ! -d "$target_dir" ]; then
-  git clone git@github.com:blazejdobek/other_projects.git
+  git clone https://github.com/bajekd/python 
 fi
 
 rm -rf $target_dir/.git
 tar -czf $compressed_file $target_dir
 
-find ~/MEGA/backups/ -type f -regex 'other_projects_+.gz.tar' -exec rm {} \;
+find ~/MEGA/backups/ -type f -regex 'python_+.gz.tar' -exec rm {} \;
 mv $compressed_file ~/MEGA/backups  
 
 rm -rf $target_dir
 
 # --------------------
-# backup python_projects repo
+# backup ruby repo
 # --------------------
-target_dir="$HOME/Downloads/python_projects"
+target_dir="$HOME/Downloads/ruby"
 current_date=$(date -u +%d_%m_%y) # UTC time
-compressed_file="$HOME/Downloads/python_projects_$current_date.tar.gz"
+compressed_file="$HOME/Downloads/ruby_$current_date.tar.gz"
 
-echo -e "\nBacking up python_projects repo\n"
+echo -e "\nBacking up ruby repo\n"
 if [ ! -d "$target_dir" ]; then
-  git clone git@github.com:blazejdobek/python_projects.git
+  git clone https://github.com/bajekd/ruby
 fi
 
 rm -rf $target_dir/.git
 tar -czf $compressed_file $target_dir
 
-find ~/MEGA/backups/ -type f -regex 'python_projects_+.gz.tar' -exec rm {} \;
+find ~/MEGA/backups/ -type f -regex 'ruby_+.gz.tar' -exec rm {} \;
 mv $compressed_file ~/MEGA/backups  
 
 rm -rf $target_dir
 
 # --------------------
-# backup ruby_projects repo
+# backup rails repo
 # --------------------
-target_dir="$HOME/Downloads/ruby_projects"
+target_dir="$HOME/Downloads/rails"
 current_date=$(date -u +%d_%m_%y) # UTC time
-compressed_file="$HOME/Downloads/ruby_projects_$current_date.tar.gz"
+compressed_file="$HOME/Downloads/rails_$current_date.tar.gz"
 
-echo -e "\nBacking up ruby_projects repo\n"
+echo -e "\nBacking up rails repo\n"
 if [ ! -d "$target_dir" ]; then
-  git clone git@github.com:blazejdobek/ruby_projects.git
+  git clone https://github.com/bajekd/rails
 fi
 
 rm -rf $target_dir/.git
 tar -czf $compressed_file $target_dir
 
-find ~/MEGA/backups/ -type f -regex 'ruby_projects_+.gz.tar' -exec rm {} \;
+find ~/MEGA/backups/ -type f -regex 'rails_+.gz.tar' -exec rm {} \;
 mv $compressed_file ~/MEGA/backups  
 
 rm -rf $target_dir
@@ -98,7 +98,7 @@ compressed_file="$HOME/Downloads/work_env_$current_date.tar.gz"
 
 echo -e "\nBacking up work_env repo\n"
 if [ ! -d "$target_dir" ]; then
-  git clone git@github.com:blazejdobek/work_env.git
+  git clone https://github.com/bajekd/work_env
 fi
 
 rm -rf $target_dir/.git
