@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Video speed control for HTML5. Manage video speed with video playback and video control, video controller. Video speed playback"
+   },
+   "name": {
+      "message": "Playback Speed Control"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

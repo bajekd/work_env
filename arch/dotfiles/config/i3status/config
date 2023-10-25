@@ -1,0 +1,52 @@
+# https://i3wm.org/docs/i3status.html
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+  output_format = "i3bar"
+  colors = true
+  color_good = "#50FA7B"
+  color_degraded = "#F1FA8C"
+  color_bad = "#FF5555"
+}
+
+order += "ipv6"
+order += "wireless wlp59s0"
+order += "tztime local"
+order += "volume master"
+order += "battery 0"
+
+ipv6{
+  format_up = "%ip"
+  format_down = ""
+}
+
+wireless wlp59s0{
+  format_up = "%essid (%bitrate)"
+  format_down = "W: down"
+}
+
+tztime local {
+  format = "  %H:%M    %m-%d"
+}
+
+volume master {
+  format = "  %volume"
+  format_muted = " %volume"
+  device = "default"
+  mixer = "Master"
+  mixer_idx = 0
+}
+
+battery 0 {
+  last_full_capacity = true
+  threshold_type=percentage
+  low_threshold=10
+  integer_battery_capacity = true
+  format = "%status %percentage"
+  status_full = "  "
+  status_chr = ""
+  status_bat = "  "
+}

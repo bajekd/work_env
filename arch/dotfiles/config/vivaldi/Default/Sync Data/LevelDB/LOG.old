@@ -1,0 +1,21 @@
+2023/10/16-15:45:37.067 2be8 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/16-15:45:37.068 2be8 Recovering log #5927
+2023/10/16-15:45:37.069 2be8 Reusing old log /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/005927.log 
+2023/10/16-15:46:57.327 2be8 Level-0 table #5931: started
+2023/10/16-15:46:57.339 2be8 Level-0 table #5931: 406505 bytes OK
+2023/10/16-15:46:57.347 2be8 Delete type=0 #5927
+2023/10/16-15:47:55.659 2be8 Level-0 table #5933: started
+2023/10/16-15:47:55.671 2be8 Level-0 table #5933: 505704 bytes OK
+2023/10/16-15:47:55.675 2be8 Delete type=0 #5930
+2023/10/16-15:47:55.676 2be8 Compacting 4@0 + 1@1 files
+2023/10/16-15:47:55.681 2be8 Generated table #5934@0: 913 keys, 81515 bytes
+2023/10/16-15:47:55.681 2be8 Compacted 4@0 + 1@1 files => 81515 bytes
+2023/10/16-15:47:55.685 2be8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/16-15:47:55.685 2be8 Delete type=2 #5923
+2023/10/16-15:47:55.685 2be8 Delete type=2 #5933
+2023/10/16-15:47:55.685 2be8 Delete type=2 #5928
+2023/10/16-15:47:55.685 2be8 Delete type=2 #5925
+2023/10/16-15:47:55.685 2be8 Delete type=2 #5931
+2023/10/16-15:50:16.347 2be8 Level-0 table #5936: started
+2023/10/16-15:50:16.355 2be8 Level-0 table #5936: 461755 bytes OK
+2023/10/16-15:50:16.365 2be8 Delete type=0 #5932

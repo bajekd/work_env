@@ -1,0 +1,19 @@
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  Preferredauthentications publickey
+  IdentityFile ~/.ssh/github
+
+Host gitlab.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/gitlab
+
+#SSH server // `ssh priv` to connect with server
+Host priv
+  HostName 165.22.23.4
+  ServerAliveInterval 300
+  ServerAliveCountMax 2
+  User bajek
+  IdentityFile ~/.ssh/private_server

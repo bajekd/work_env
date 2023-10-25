@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "HTML5 vaizdo įrašų greičio valdiklis. Valdykite vaizdo įrašo greitį, paspartinkite naudodami vaizdo įrašų atkūrimo greitį. Vaizdo įrašo greičio valdymas."
+   },
+   "name": {
+      "message": "Vaizdo įrašo greičio valdiklis"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

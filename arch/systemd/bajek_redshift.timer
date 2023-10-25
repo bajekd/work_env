@@ -1,0 +1,9 @@
+[Unit]
+Description=Run bajek_redshift every 10min and 5sec after boot.
+
+[Timer]
+OnBootSec=5s
+OnUnitActiveSec=10m
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,62 @@
+#------------------------------------------------------------------------------
+# Homebrew update shortuct
+#------------------------------------------------------------------------------
+
+function update() {
+  echo "It is high time to start Secret Plan X!"
+  brew update
+  brew upgrade
+  brew cleanup
+  brew autoremove
+  brew doctor
+  echo "UNITE!"
+}
+
+#------------------------------------------------------------------------------
+# Homebrew completion
+#------------------------------------------------------------------------------
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
+
+#------------------------------------------------------------------------------
+# Aliases
+#------------------------------------------------------------------------------
+
+alias ls='ls -al'
+alias mkdir='mkdir -pv'
+alias tar='tar -czvf'
+alias untar='tar -zxvf'
+alias reload='source ~/.zshrc'
+
+alias gc='git commit'
+alias gco='git checkout'
+alias gb='git branch'
+alias gs='git status'
+alias glg="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gpp='git pull; git push'
+
+#------------------------------------------------------------------------------
+# Path
+#------------------------------------------------------------------------------
+
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
+
+#------------------------------------------------------------------------------
+# nvm
+#------------------------------------------------------------------------------
+
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
+
+#------------------------------------------------------------------------------
+# Other
+#------------------------------------------------------------------------------
+
+eval "$(starship init zsh)"
+eval "$(rbenv init -)"

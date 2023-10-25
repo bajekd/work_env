@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Speed controller for HTML5 videos. Manage video speed, speed up, slow down using the keyboard. Control video speed."
+   },
+   "name": {
+      "message": "Speed Controller - video recorder"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

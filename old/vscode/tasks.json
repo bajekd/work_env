@@ -1,0 +1,62 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+     {
+      "label": "Console",
+      "type": "shell",
+      "command": "bundle exec rails c",
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "close": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+
+    },
+    {
+      "label": "Server",
+      "type": "shell",
+      "command": "bundle exec rails s; sh",
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "close": true
+      },
+
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    },
+    {
+      "label": "Redis",
+      "type": "shell",
+      "command": "redis-server",
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "close": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen",
+      }
+    },
+    {
+      "label": "Sidekiq",
+      "type": "shell",
+      "command": "bundle exec sidekiq",
+      "presentation": {
+        "reveal": "never",
+        "panel": "dedicated",
+        "close": true
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
+

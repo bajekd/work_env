@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Nadzor hitrosti videa za HTML5. Upravljajte hitrost videa s predvajanjem videa in video nadzorom, video krmilnikom. Hitrost predvajanja videa"
+   },
+   "name": {
+      "message": "Nadzor hitrosti videa za HTML5"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

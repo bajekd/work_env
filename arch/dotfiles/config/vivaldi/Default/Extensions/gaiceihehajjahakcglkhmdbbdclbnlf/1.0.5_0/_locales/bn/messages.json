@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Audio Speed controller for HTML5 videos. Manage video speed, speed up, slow down using the keyboard. Control video speed. Speed test, video recorder, video games"
+   },
+   "name": {
+      "message": "Audio Speed Controller - speed control HTML videos"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}

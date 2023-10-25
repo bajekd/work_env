@@ -1,0 +1,1 @@
+[{"url": "postgresql://bajek@localhost:5432/gorails_blog_development", "name": "gorails_blog_development"}, {"url": "sqlite:/home/bajek/Downloads/url_shortener/db/development.sqlite3", "name": "url_shortener_development"}]

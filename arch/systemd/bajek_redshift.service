@@ -1,0 +1,9 @@
+# https://bbs.archlinux.org/viewtopic.php?id=177473
+[Unit]
+Description=Service for automatically running redshift.
+
+[Service]
+ExecStart=/home/bajek/.local/bin/redshift.sh
+
+[Install]
+WantedBy=graphical.target

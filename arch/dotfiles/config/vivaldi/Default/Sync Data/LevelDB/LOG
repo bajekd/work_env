@@ -1,0 +1,6 @@
+2023/10/16-16:00:30.119 384e Reusing MANIFEST /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/10/16-16:00:30.120 384e Recovering log #5935
+2023/10/16-16:00:30.121 384e Reusing old log /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/005935.log 
+2023/10/16-16:04:27.962 384f Level-0 table #5939: started
+2023/10/16-16:04:27.975 384f Level-0 table #5939: 326471 bytes OK
+2023/10/16-16:04:27.979 384f Delete type=0 #5935

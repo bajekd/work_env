@@ -1,0 +1,11 @@
+{
+   "desc": {
+      "message": "Nopeussäädin HTML5-videoille. Hallitse videon nopeutta, nopeuttaa videon nopeuden toistoa. Videon nopeuden säätö."
+   },
+   "name": {
+      "message": "Videon nopeuden säädin"
+   },
+   "title": {
+      "message": "Video Control"
+   }
+}
