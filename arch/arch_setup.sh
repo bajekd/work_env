@@ -54,6 +54,7 @@ paru -S --noconfirm - < $path_to_backup/packages_to_install.txt # list has to ha
 #   i3
 #   i3status
 #   nvim
+#   tmux
 #   powerkit
 #   redshift
 #   rofi
@@ -78,6 +79,10 @@ cat $path_to_backup/dotfiles/config/i3status/config > ~/.config/i3status/config
 mkdir -pv ~/.config/nvim
 cp -R $path_to_backup/dotfiles/config/nvim/ ~/.config/nvim
 
+# tmux
+mkdir -pv ~/.config/tmux
+cp -R $path_to_backup/dotfiles/config/tmux/ ~/.config/tmux
+
 # powerkit
 mkdir -pv ~/.config/powerkit
 cat $path_to_backup/dotfiles/config/powerkit/powerkit.conf > ~/.config/powerkit/powerkit.conf
@@ -93,16 +98,8 @@ cat $path_to_backup/dotfiles/config/rofi/config.rasi > ~/.config/rofi/config.ras
 cat $path_to_backup/dotfiles/config/starship.toml > ~/.config/starship.toml
 
 # vifm
-mkdir -pv ~/.config/vifm/colors
-mkdir -pv ~/.config/vifm/scripts
-chmod -R 744 ~/.config/vifm/scripts
-
-cat $path_to_backup/dotfiles/config/vifm/vifmrc > ~/.config/vifm/vifmrc
-cat $path_to_backup/dotfiles/config/vifm/vifm-help.txt > ~/.config/vifm/vifm-help.txt
-cat $path_to_backup/dotfiles/config/vifm/vifminfo.json > ~/.config/vifm/vifminfo.json
-
-cat $path_to_backup/dotfiles/config/vifm/colors/Default.vifm > ~/.config/vifm/colors/Default.vifm
-cat $path_to_backup/dotfiles/config/vifm/colors/dracula.vifm > ~/.config/vifm/colors/dracula.vifm
+mkdir -pv ~/.config/vifm
+cp -R $path_to_backup/dotfiles/config/vifm/ ~/.config/vifm
 
 # vivaldi
 mkdir -pv ~/.config/vivaldi
