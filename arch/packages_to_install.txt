@@ -22,7 +22,6 @@ man-db
 megasync-bin
 mlocate
 notion-app
-openssh
 pacman-contrib
 paru
 poppler
