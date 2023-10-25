@@ -77,11 +77,11 @@ cat $path_to_backup/dotfiles/config/i3status/config > ~/.config/i3status/config
 
 # nvim
 mkdir -pv ~/.config/nvim
-cp -R $path_to_backup/dotfiles/config/nvim/ ~/.config/nvim
+cp -r $path_to_backup/dotfiles/config/nvim/ ~/.config/nvim
 
 # tmux
 mkdir -pv ~/.config/tmux
-cp -R $path_to_backup/dotfiles/config/tmux/ ~/.config/tmux
+cp -r $path_to_backup/dotfiles/config/tmux/ ~/.config/tmux
 
 # powerkit
 mkdir -pv ~/.config/powerkit
@@ -99,11 +99,11 @@ cat $path_to_backup/dotfiles/config/starship.toml > ~/.config/starship.toml
 
 # vifm
 mkdir -pv ~/.config/vifm
-cp -R $path_to_backup/dotfiles/config/vifm/ ~/.config/vifm
+cp -r $path_to_backup/dotfiles/config/vifm/ ~/.config/vifm
 
 # vivaldi
 mkdir -pv ~/.config/vivaldi
-cp -R $path_to_backup/dotfiles/config/vivaldi/Default ~/.config/vivaldi
+cp -r $path_to_backup/dotfiles/config/vivaldi/Default ~/.config/vivaldi
 
 #--------------------
 # home 
