@@ -30,7 +30,6 @@ postgresql
 powerkit
 pulseaudio
 redshift
-reflector
 ripgrep
 rofi
 simplescreenrecorder
