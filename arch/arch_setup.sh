@@ -77,8 +77,6 @@ cat $path_to_backup/dotfiles/config/i3status/config > ~/.config/i3status/config
 # nvim
 mkdir -pv ~/.config/nvim
 cp -R $path_to_backup/dotfiles/config/nvim/ ~/.config/nvim
-gpg --import ~/.config/nvim/private-key.asc
-rm ~/.config/nvim/private-key.asc
 
 # powerkit
 mkdir -pv ~/.config/powerkit
