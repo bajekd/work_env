@@ -30,6 +30,8 @@ function update ()
     rm -rf ~/.psql_history ~/.bash_history ~/.python_history ~/.cache
     rm -rf ~/.cargo/registry 
     rm -rf ~/.local/share/recently-used.xbel
+    rm -rf ~/.irb_history
+    rm -rf ~/.rdbg_history
 }
 
 function rds () {
