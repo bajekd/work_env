@@ -48,4 +48,3 @@ sudo -u postgres psql -c "CREATE DATABASE bajek OWNER bajek"
 #--------------------
 paru -S memcached
 sudo systemctl enable memcached
- 
