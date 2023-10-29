@@ -42,3 +42,10 @@ sudo systemctl start postgresql
 
 sudo -u postgres psql -c "CREATE ROLE bajek WITH LOGIN SUPERUSER INHERIT CREATEDB CREATEROLE REPLICATION BYPASSRLS PASSWORD 'Lomtjjz90/'"
 sudo -u postgres psql -c "CREATE DATABASE bajek OWNER bajek"
+
+#--------------------
+# memcached
+#--------------------
+paru -S memcached
+sudo systemctl enable memcached
+ 
