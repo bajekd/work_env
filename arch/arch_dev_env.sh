@@ -30,7 +30,6 @@ gem install rails -v $rails_version
 asdf plugin add nodejs
 asdf install nodejs $nodejs_version
 asdf global nodejs $nodejs_version
-npm install -g yarn # install yarn for Rails jsbundling/cssbundling or webpacker
 
 #--------------------
 # psql
