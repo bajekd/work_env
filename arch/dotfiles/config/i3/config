@@ -90,7 +90,7 @@ workspace $organiser output eDP-1
 # xprop | grep WM_CLASS | awk '{print $4}'
 assign [title="vim"] $code
 assign [title="vifm"] $files
-assign [class="notion"] $notion
+assign [class="Notion"] $notion
 assign [class="Xmind"] $xmind
 
 # Workspaces switching
