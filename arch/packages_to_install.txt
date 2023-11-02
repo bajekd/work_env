@@ -21,7 +21,7 @@ lxsession
 man-db
 megasync-bin
 mlocate
-notion-app
+notion-app-electron
 pacman-contrib
 paru
 poppler
