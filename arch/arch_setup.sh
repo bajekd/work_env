@@ -51,6 +51,7 @@ paru -S --noconfirm - < $path_to_backup/packages_to_install.txt # list has to ha
 #--------------------
 # config
 #   alacritty
+#   flameshot
 #   i3
 #   i3status
 #   nvim
@@ -66,6 +67,11 @@ paru -S --noconfirm - < $path_to_backup/packages_to_install.txt # list has to ha
 # alacritty
 mkdir -pv ~/.config/alacritty
 cat $path_to_backup/dotfiles/config/alacritty/alacritty.yml > ~/.config/alacritty/alacritty.yml
+
+# flameshot
+# run in terminal: `flameshot config` to change config
+mkdir -pv ~/.config/flameshot
+cat $path_to_backup/dotfiles/config/flameshot/flameshot.ini > ~/.config/flameshot/flameshot.ini
 
 # i3
 mkdir ~/.config/i3
