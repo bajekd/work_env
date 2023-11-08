@@ -60,6 +60,7 @@ mode "$resize_mode" {
 # 4) Set wallpaper
 # 5) Run megasync
 # 6) Run redshift
+# 7) Run flameshot (in order to enable save images to clipboard)
 #-----------------------------------
 
 exec --no-startup-id dex --autostart --environment i3
@@ -68,6 +69,7 @@ exec --no-startup-id lxpolkit
 exec --no-startup-id feh --no-fehbg --bg-fill "$HOME/Pictures/wallpapers/dracula.png"
 exec --no-startup-id megasync 
 exec --no-startup-id redshift
+exec --no-startup-id flameshot 
 
 #-----------------------------------
 # WORKSPACES 
@@ -131,12 +133,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
-
 # Applications
 bindsym $mod+Return exec alacritty --title terminal
-bindsym $mod+v exec alacritty --title vim -e nvim
 bindsym $mod+e exec alacritty --title vifm -e vifm  
 bindsym $mod+b exec vivaldi-stable 
+bindsym $mod+n exec notion-app 
 bindsym $mod+space exec --no-startup-id rofi -show drun -matching fuzzy 
 bindsym $mod+Tab exec --no-startup-id rofi -show window -matching fuzzy 
 # xmodmap -pke | grep 'keyorganiser 119'  ==> Delete NoSymbol Delete
