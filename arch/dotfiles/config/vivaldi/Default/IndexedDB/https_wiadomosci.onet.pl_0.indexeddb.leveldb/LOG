@@ -1,6 +1,0 @@
-2023/11/14-15:25:58.455 27fe Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_wiadomosci.onet.pl_0.indexeddb.leveldb since it was missing.
-2023/11/14-15:25:58.478 27fe Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_wiadomosci.onet.pl_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/14-15:26:37.610 27ff Level-0 table #5: started
-2023/11/14-15:26:37.614 27ff Level-0 table #5: 1484 bytes OK
-2023/11/14-15:26:37.618 27ff Delete type=0 #3
-2023/11/14-15:26:37.618 27ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)

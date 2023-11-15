@@ -1,3 +1,15 @@
-2023/11/15-22:51:57.270 fae Reusing MANIFEST /home/bajek/.config/vivaldi/Default/Extension State/MANIFEST-000001
-2023/11/15-22:51:57.270 fae Recovering log #1276
-2023/11/15-22:51:57.273 fae Reusing old log /home/bajek/.config/vivaldi/Default/Extension State/001276.log 
+2023/11/15-23:35:44.552 16f8 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/Extension State/MANIFEST-000001
+2023/11/15-23:35:44.552 16f8 Recovering log #1276
+2023/11/15-23:35:44.557 16f8 Reusing old log /home/bajek/.config/vivaldi/Default/Extension State/001276.log 
+2023/11/15-23:37:02.996 16f8 Level-0 table #1280: started
+2023/11/15-23:37:03.012 16f8 Level-0 table #1280: 4197407 bytes OK
+2023/11/15-23:37:03.018 16f8 Delete type=0 #1276
+2023/11/15-23:37:03.018 16f8 Compacting 4@0 + 1@1 files
+2023/11/15-23:37:03.040 16f8 Generated table #1281@0: 10 keys, 13996 bytes
+2023/11/15-23:37:03.040 16f8 Compacted 4@0 + 1@1 files => 13996 bytes
+2023/11/15-23:37:03.044 16f8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/15-23:37:03.044 16f8 Delete type=2 #1272
+2023/11/15-23:37:03.044 16f8 Delete type=2 #1274
+2023/11/15-23:37:03.044 16f8 Delete type=2 #1280
+2023/11/15-23:37:03.044 16f8 Delete type=2 #1270
+2023/11/15-23:37:03.044 16f8 Delete type=2 #1277

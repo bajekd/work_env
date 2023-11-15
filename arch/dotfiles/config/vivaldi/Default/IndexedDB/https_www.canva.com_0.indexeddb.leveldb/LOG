@@ -1,6 +1,0 @@
-2023/11/11-14:08:54.784 37c Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb since it was missing.
-2023/11/11-14:08:54.793 37c Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/11-14:19:37.212 37d Level-0 table #5: started
-2023/11/11-14:19:37.217 37d Level-0 table #5: 28385 bytes OK
-2023/11/11-14:19:37.221 37d Delete type=0 #3
-2023/11/11-14:19:37.222 37d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

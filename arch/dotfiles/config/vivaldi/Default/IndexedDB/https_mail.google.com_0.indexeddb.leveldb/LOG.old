@@ -1,9 +1,0 @@
-2023/11/15-19:22:14.318 4a8 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/15-19:22:14.319 4a8 Recovering log #64
-2023/11/15-19:22:14.323 4a8 Reusing old log /home/bajek/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000064.log 
-2023/11/15-19:22:15.315 4a8 Compacting 1@1 + 1@2 files
-2023/11/15-19:22:15.322 4a8 Generated table #67@1: 174 keys, 184212 bytes
-2023/11/15-19:22:15.322 4a8 Compacted 1@1 + 1@2 files => 184212 bytes
-2023/11/15-19:22:15.326 4a8 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/11/15-19:22:15.326 4a8 Delete type=2 #65
-2023/11/15-19:22:15.326 4a8 Delete type=2 #62

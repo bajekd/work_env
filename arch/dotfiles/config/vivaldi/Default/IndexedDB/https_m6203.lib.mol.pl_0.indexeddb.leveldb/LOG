@@ -1,6 +1,0 @@
-2023/11/10-14:39:20.901 7b2 Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_m6203.lib.mol.pl_0.indexeddb.leveldb since it was missing.
-2023/11/10-14:39:20.912 7b2 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_m6203.lib.mol.pl_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/10-14:39:37.798 7b3 Level-0 table #5: started
-2023/11/10-14:39:37.803 7b3 Level-0 table #5: 5211 bytes OK
-2023/11/10-14:39:37.808 7b3 Delete type=0 #3
-2023/11/10-14:39:37.808 7b3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,6 +1,0 @@
-2023/11/14-11:00:04.844 3d2 Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.national-geographic.pl_0.indexeddb.leveldb since it was missing.
-2023/11/14-11:00:04.855 3d2 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.national-geographic.pl_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/14-11:02:11.109 3d3 Level-0 table #5: started
-2023/11/14-11:02:11.119 3d3 Level-0 table #5: 1765 bytes OK
-2023/11/14-11:02:11.127 3d3 Delete type=0 #3
-2023/11/14-11:02:11.127 3d3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
