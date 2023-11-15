@@ -1,0 +1,6 @@
+2023/11/09-11:19:14.278 37a Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2023/11/09-11:19:14.296 37a Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/09-11:19:15.168 38f Level-0 table #5: started
+2023/11/09-11:19:15.171 38f Level-0 table #5: 2639 bytes OK
+2023/11/09-11:19:15.175 38f Delete type=0 #3
+2023/11/09-11:19:15.175 37a Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

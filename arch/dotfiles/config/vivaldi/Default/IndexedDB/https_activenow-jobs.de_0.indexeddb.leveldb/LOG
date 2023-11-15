@@ -1,0 +1,29 @@
+2023/11/11-23:45:00.407 368 Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_activenow-jobs.de_0.indexeddb.leveldb since it was missing.
+2023/11/11-23:45:00.418 368 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_activenow-jobs.de_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/11-23:45:00.437 37d Level-0 table #5: started
+2023/11/11-23:45:00.443 37d Level-0 table #5: 675 bytes OK
+2023/11/11-23:45:00.450 37d Delete type=0 #3
+2023/11/11-23:45:00.450 37d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/11-23:45:02.106 37c Level-0 table #7: started
+2023/11/11-23:45:02.110 37c Level-0 table #7: 1788 bytes OK
+2023/11/11-23:45:02.115 37c Delete type=0 #4
+2023/11/11-23:45:02.116 368 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/11-23:45:07.443 369 Level-0 table #9: started
+2023/11/11-23:45:07.447 369 Level-0 table #9: 256 bytes OK
+2023/11/11-23:45:07.451 369 Delete type=0 #6
+2023/11/11-23:45:07.452 369 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x09\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 104 : 0
+2023/11/11-23:45:07.452 369 Compacting 1@0 + 1@1 files
+2023/11/11-23:45:07.456 369 Generated table #10@0: 46 keys, 1263 bytes
+2023/11/11-23:45:07.456 369 Compacted 1@0 + 1@1 files => 1263 bytes
+2023/11/11-23:45:07.460 369 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/11-23:45:07.461 369 Delete type=2 #9
+2023/11/11-23:45:07.461 369 Delete type=2 #7
+2023/11/11-23:45:07.461 369 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x09\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 104 : 0 .. (end); will stop at (end)
+2023/11/11-23:45:07.461 369 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01L\x00l\x00a\x00n\x00d\x00b\x00o\x00t\x00-\x00H\x00-\x001\x002\x003\x005\x002\x008\x008\x00-\x00I\x00V\x00O\x00W\x006\x009\x00E\x006\x00P\x001\x00T\x00D\x009\x00K\x00O\x00M\x00!\x001\x00:\x009\x001\x008\x004\x009\x004\x003\x005\x005\x001\x005\x003\x00:\x00w\x00e\x00b\x00:\x00d\x006\x007\x00e\x002\x00d\x00c\x00b\x00b\x001\x00f\x000\x007\x007\x009\x00f\x002\x007\x006\x00f\x00f\x000' @ 80 : 1
+2023/11/11-23:45:07.461 369 Compacting 1@1 + 1@2 files
+2023/11/11-23:45:07.464 369 Generated table #11@1: 21 keys, 958 bytes
+2023/11/11-23:45:07.464 369 Compacted 1@1 + 1@2 files => 958 bytes
+2023/11/11-23:45:07.468 369 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/11-23:45:07.468 369 Delete type=2 #5
+2023/11/11-23:45:07.468 369 Delete type=2 #10
+2023/11/11-23:45:07.468 369 Manual compaction at level-1 from '\x00\x02\x01\x02\x01L\x00l\x00a\x00n\x00d\x00b\x00o\x00t\x00-\x00H\x00-\x001\x002\x003\x005\x002\x008\x008\x00-\x00I\x00V\x00O\x00W\x006\x009\x00E\x006\x00P\x001\x00T\x00D\x009\x00K\x00O\x00M\x00!\x001\x00:\x009\x001\x008\x004\x009\x004\x003\x005\x005\x001\x005\x003\x00:\x00w\x00e\x00b\x00:\x00d\x006\x007\x00e\x002\x00d\x00c\x00b\x00b\x001\x00f\x000\x007\x007\x009\x00f\x002\x007\x006\x00f\x00f\x000' @ 80 : 1 .. (end); will stop at (end)

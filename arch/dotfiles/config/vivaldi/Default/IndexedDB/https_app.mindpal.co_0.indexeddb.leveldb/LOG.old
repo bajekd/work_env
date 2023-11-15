@@ -1,0 +1,26 @@
+2023/11/13-03:20:23.340 6a76 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_app.mindpal.co_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/13-03:20:23.340 6a76 Recovering log #4
+2023/11/13-03:20:23.340 6a76 Reusing old log /home/bajek/.config/vivaldi/Default/IndexedDB/https_app.mindpal.co_0.indexeddb.leveldb/000004.log 
+2023/11/13-03:20:23.357 6a78 Level-0 table #8: started
+2023/11/13-03:20:23.361 6a78 Level-0 table #8: 1642 bytes OK
+2023/11/13-03:20:23.366 6a78 Delete type=0 #4
+2023/11/13-03:20:23.367 6a78 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/13-03:20:30.071 6a76 Level-0 table #10: started
+2023/11/13-03:20:30.079 6a76 Level-0 table #10: 866 bytes OK
+2023/11/13-03:20:30.087 6a76 Delete type=0 #7
+2023/11/13-03:20:30.087 6a76 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x006\x005\x007\x001\x008\x003\x002\x001\x006\x006\x00:\x00w\x00e\x00b\x00:\x008\x00e\x007\x00d\x00c\x00d\x009\x003\x008\x009\x002\x008\x009\x001\x00b\x00f\x00e\x00c\x00c\x006\x00a\x007' @ 97 : 1
+2023/11/13-03:20:30.087 6a76 Compacting 1@0 + 1@1 files
+2023/11/13-03:20:30.095 6a76 Generated table #11@0: 44 keys, 1261 bytes
+2023/11/13-03:20:30.095 6a76 Compacted 1@0 + 1@1 files => 1261 bytes
+2023/11/13-03:20:30.099 6a76 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/13-03:20:30.100 6a76 Delete type=2 #8
+2023/11/13-03:20:30.100 6a76 Delete type=2 #10
+2023/11/13-03:20:30.100 6a76 Manual compaction at level-0 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x006\x005\x007\x001\x008\x003\x002\x001\x006\x006\x00:\x00w\x00e\x00b\x00:\x008\x00e\x007\x00d\x00c\x00d\x009\x003\x008\x009\x002\x008\x009\x001\x00b\x00f\x00e\x00c\x00c\x006\x00a\x007' @ 97 : 1 .. (end); will stop at (end)
+2023/11/13-03:20:30.100 6a76 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x006\x005\x007\x001\x008\x003\x002\x001\x006\x006\x00:\x00w\x00e\x00b\x00:\x008\x00e\x007\x00d\x00c\x00d\x009\x003\x008\x009\x002\x008\x009\x001\x00b\x00f\x00e\x00c\x00c\x006\x00a\x007' @ 97 : 1
+2023/11/13-03:20:30.100 6a76 Compacting 1@1 + 1@2 files
+2023/11/13-03:20:30.105 6a76 Generated table #12@1: 21 keys, 940 bytes
+2023/11/13-03:20:30.105 6a76 Compacted 1@1 + 1@2 files => 940 bytes
+2023/11/13-03:20:30.109 6a76 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/13-03:20:30.110 6a76 Delete type=2 #5
+2023/11/13-03:20:30.110 6a76 Delete type=2 #11
+2023/11/13-03:20:30.110 6a76 Manual compaction at level-1 from '\x00\x02\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x006\x005\x007\x001\x008\x003\x002\x001\x006\x006\x00:\x00w\x00e\x00b\x00:\x008\x00e\x007\x00d\x00c\x00d\x009\x003\x008\x009\x002\x008\x009\x001\x00b\x00f\x00e\x00c\x00c\x006\x00a\x007' @ 97 : 1 .. (end); will stop at (end)

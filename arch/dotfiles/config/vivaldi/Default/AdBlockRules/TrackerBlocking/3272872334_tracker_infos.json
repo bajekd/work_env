@@ -306,6 +306,12 @@
          "name": "OneSoon Ltd"
       }
    },
+   "adamantsnail.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
+      }
+   },
    "adapf.com": {
       "categories": [  ],
       "owner": {
@@ -2258,6 +2264,12 @@
          "url": "https://www.akamai.com"
       }
    },
+   "chalkoil.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
+      }
+   },
    "channel.me": {
       "categories": [  ],
       "owner": {
@@ -2815,6 +2827,12 @@
          "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
+   "cozyhillside.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
+      }
+   },
    "cpmstar.com": {
       "categories": [  ],
       "owner": {
@@ -2882,6 +2900,12 @@
          "displayName": "RTB House",
          "name": "RTB House S.A.",
          "privacyPolicy": "https://www.rtbhouse.com/privacy/"
+      }
+   },
+   "crimsonmeadow.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "crisp.chat": {
@@ -2958,6 +2982,12 @@
          "name": "Lotame Solutions, Inc.",
          "privacyPolicy": "https://www.lotame.com/about-lotame/privacy/lotame-corporate-websites-privacy-policy/",
          "url": "http://www.lotame.com/"
+      }
+   },
+   "crystalboulevard.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "ctnsnet.com": {
@@ -3325,6 +3355,12 @@
       "owner": {
          "displayName": "CHEQ",
          "name": "CHEQ AI Technologies Ltd."
+      }
+   },
+   "delicatecascade.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "delivra.com": {
@@ -3822,6 +3858,12 @@
       "owner": {
          "displayName": "NIC.UA",
          "name": "NIC.UA LLC"
+      }
+   },
+   "ethereallagoon.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "eulerian.net": {
@@ -4337,6 +4379,12 @@
          "displayName": "ForeSee Results",
          "name": "ForeSee Results, Inc.",
          "privacyPolicy": "https://www.foresee.com/privacy-policy/"
+      }
+   },
+   "forgetfulsnail.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "fortunatemark.com": {
@@ -5062,6 +5110,12 @@
          "privacyPolicy": "https://hybrid.ai/privacy_policy"
       }
    },
+   "headydegree.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
+      }
+   },
    "heapanalytics.com": {
       "categories": [ "Action Pixels", "Analytics", "Session Replay" ],
       "owner": {
@@ -5650,13 +5704,6 @@
          "privacyPolicy": "https://www.iperceptions.com/en/legal/privacy-policy"
       }
    },
-   "ipify.org": {
-      "categories": [  ],
-      "owner": {
-         "displayName": "ipify.org",
-         "name": "ipify.org"
-      }
-   },
    "iplsc.com": {
       "categories": [  ],
       "owner": {
@@ -5816,6 +5863,12 @@
       "owner": {
          "displayName": "Universo Online",
          "name": "Universo Online S.A."
+      }
+   },
+   "jubilantcanyon.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "juiceadv.com": {
@@ -9920,6 +9973,12 @@
          "name": "smilewanted.com"
       }
    },
+   "smilingswim.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
+      }
+   },
    "smoggysnakes.com": {
       "owner": {
          "displayName": "Admiral",
@@ -10446,6 +10505,12 @@
       }
    },
    "stupidscene.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
+      }
+   },
+   "succeedscene.com": {
       "owner": {
          "displayName": "Admiral",
          "name": "Leven Labs, Inc. DBA Admiral"
@@ -11053,6 +11118,12 @@
          "name": "TrafMag",
          "privacyPolicy": "https://trafmag.com",
          "url": "https://trafmag.com"
+      }
+   },
+   "tranquilcanyon.com": {
+      "owner": {
+         "displayName": "Admiral",
+         "name": "Leven Labs, Inc. DBA Admiral"
       }
    },
    "travelaudience.com": {
@@ -12295,14 +12366,6 @@
       "owner": {
          "displayName": "Zoom Information",
          "name": "Zoom Information, Inc."
-      }
-   },
-   "zopim.com": {
-      "categories": [ "Embedded Content" ],
-      "owner": {
-         "displayName": "Zendesk",
-         "name": "Zendesk, Inc.",
-         "privacyPolicy": "https://www.zendesk.com/company/customers-partners/privacy-policy/"
       }
    },
    "zprk.io": {

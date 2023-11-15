@@ -1,0 +1,6 @@
+2023/11/12-02:59:59.461 37c Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb since it was missing.
+2023/11/12-02:59:59.470 37c Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/12-03:00:31.499 369 Level-0 table #5: started
+2023/11/12-03:00:31.503 369 Level-0 table #5: 856 bytes OK
+2023/11/12-03:00:31.508 369 Delete type=0 #3
+2023/11/12-03:00:31.508 369 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

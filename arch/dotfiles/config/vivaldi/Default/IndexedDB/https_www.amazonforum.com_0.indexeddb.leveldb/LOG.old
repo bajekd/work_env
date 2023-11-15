@@ -1,0 +1,6 @@
+2023/11/14-15:36:16.779 349b Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.amazonforum.com_0.indexeddb.leveldb since it was missing.
+2023/11/14-15:36:16.788 349b Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_www.amazonforum.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/14-15:36:17.887 349e Level-0 table #5: started
+2023/11/14-15:36:17.893 349e Level-0 table #5: 53246 bytes OK
+2023/11/14-15:36:17.897 349e Delete type=0 #3
+2023/11/14-15:36:17.897 349e Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

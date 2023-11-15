@@ -1,21 +1,39 @@
-2023/10/16-15:45:37.067 2be8 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
-2023/10/16-15:45:37.068 2be8 Recovering log #5927
-2023/10/16-15:45:37.069 2be8 Reusing old log /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/005927.log 
-2023/10/16-15:46:57.327 2be8 Level-0 table #5931: started
-2023/10/16-15:46:57.339 2be8 Level-0 table #5931: 406505 bytes OK
-2023/10/16-15:46:57.347 2be8 Delete type=0 #5927
-2023/10/16-15:47:55.659 2be8 Level-0 table #5933: started
-2023/10/16-15:47:55.671 2be8 Level-0 table #5933: 505704 bytes OK
-2023/10/16-15:47:55.675 2be8 Delete type=0 #5930
-2023/10/16-15:47:55.676 2be8 Compacting 4@0 + 1@1 files
-2023/10/16-15:47:55.681 2be8 Generated table #5934@0: 913 keys, 81515 bytes
-2023/10/16-15:47:55.681 2be8 Compacted 4@0 + 1@1 files => 81515 bytes
-2023/10/16-15:47:55.685 2be8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/10/16-15:47:55.685 2be8 Delete type=2 #5923
-2023/10/16-15:47:55.685 2be8 Delete type=2 #5933
-2023/10/16-15:47:55.685 2be8 Delete type=2 #5928
-2023/10/16-15:47:55.685 2be8 Delete type=2 #5925
-2023/10/16-15:47:55.685 2be8 Delete type=2 #5931
-2023/10/16-15:50:16.347 2be8 Level-0 table #5936: started
-2023/10/16-15:50:16.355 2be8 Level-0 table #5936: 461755 bytes OK
-2023/10/16-15:50:16.365 2be8 Delete type=0 #5932
+2023/11/15-22:51:57.123 fae Reusing MANIFEST /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/11/15-22:51:57.124 fae Recovering log #8896
+2023/11/15-22:51:57.125 fae Reusing old log /home/bajek/.config/vivaldi/Default/Sync Data/LevelDB/008896.log 
+2023/11/15-22:52:00.025 fb9 Level-0 table #8900: started
+2023/11/15-22:52:00.036 fb9 Level-0 table #8900: 346925 bytes OK
+2023/11/15-22:52:00.044 fb9 Delete type=0 #8896
+2023/11/15-22:52:00.044 fb9 Compacting 4@0 + 1@1 files
+2023/11/15-22:52:00.053 fb9 Generated table #8901@0: 929 keys, 148966 bytes
+2023/11/15-22:52:00.053 fb9 Compacted 4@0 + 1@1 files => 148966 bytes
+2023/11/15-22:52:00.061 fb9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/15-22:52:00.061 fb9 Delete type=2 #8893
+2023/11/15-22:52:00.061 fb9 Delete type=2 #8895
+2023/11/15-22:52:00.061 fb9 Delete type=2 #8897
+2023/11/15-22:52:00.061 fb9 Delete type=2 #8900
+2023/11/15-22:52:00.061 fb9 Delete type=2 #8891
+2023/11/15-23:07:33.725 fa7 Level-0 table #8903: started
+2023/11/15-23:07:33.737 fa7 Level-0 table #8903: 466600 bytes OK
+2023/11/15-23:07:33.742 fa7 Delete type=0 #8899
+2023/11/15-23:08:07.825 fa5 Level-0 table #8905: started
+2023/11/15-23:08:07.837 fa5 Level-0 table #8905: 515157 bytes OK
+2023/11/15-23:08:07.841 fa5 Delete type=0 #8902
+2023/11/15-23:08:36.926 fa5 Level-0 table #8907: started
+2023/11/15-23:08:36.939 fa5 Level-0 table #8907: 500788 bytes OK
+2023/11/15-23:08:36.946 fa5 Delete type=0 #8904
+2023/11/15-23:09:18.618 fa5 Level-0 table #8909: started
+2023/11/15-23:09:18.630 fa5 Level-0 table #8909: 481165 bytes OK
+2023/11/15-23:09:18.637 fa5 Delete type=0 #8906
+2023/11/15-23:09:18.637 fa5 Compacting 4@0 + 1@1 files
+2023/11/15-23:09:18.643 fa5 Generated table #8910@0: 929 keys, 257875 bytes
+2023/11/15-23:09:18.643 fa5 Compacted 4@0 + 1@1 files => 257875 bytes
+2023/11/15-23:09:18.647 fa5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/15-23:09:18.648 fa5 Delete type=2 #8907
+2023/11/15-23:09:18.648 fa5 Delete type=2 #8901
+2023/11/15-23:09:18.648 fa5 Delete type=2 #8909
+2023/11/15-23:09:18.648 fa5 Delete type=2 #8905
+2023/11/15-23:09:18.648 fa5 Delete type=2 #8903
+2023/11/15-23:15:38.176 fa5 Level-0 table #8912: started
+2023/11/15-23:15:38.181 fa5 Level-0 table #8912: 433014 bytes OK
+2023/11/15-23:15:38.185 fa5 Delete type=0 #8908

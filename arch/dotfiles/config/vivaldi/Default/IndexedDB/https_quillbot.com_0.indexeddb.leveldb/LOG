@@ -1,0 +1,6 @@
+2023/11/13-18:19:47.298 3e06 Creating DB /home/bajek/.config/vivaldi/Default/IndexedDB/https_quillbot.com_0.indexeddb.leveldb since it was missing.
+2023/11/13-18:19:47.307 3e06 Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_quillbot.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/13-18:19:47.328 3e06 Level-0 table #5: started
+2023/11/13-18:19:47.332 3e06 Level-0 table #5: 1317 bytes OK
+2023/11/13-18:19:47.338 3e06 Delete type=0 #3
+2023/11/13-18:19:47.338 3e06 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,35 @@
+2023/11/13-01:00:00.321 5d3d Reusing MANIFEST /home/bajek/.config/vivaldi/Default/IndexedDB/https_replit.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/13-01:00:00.321 5d3d Recovering log #29
+2023/11/13-01:00:00.321 5d3d Reusing old log /home/bajek/.config/vivaldi/Default/IndexedDB/https_replit.com_0.indexeddb.leveldb/000029.log 
+2023/11/13-01:00:00.321 5d3d Delete type=2 #30
+2023/11/13-01:00:00.321 5d3d Delete type=2 #28
+2023/11/13-01:00:00.668 5d41 Level-0 table #34: started
+2023/11/13-01:00:00.672 5d41 Level-0 table #34: 3838 bytes OK
+2023/11/13-01:00:00.676 5d41 Delete type=0 #29
+2023/11/13-01:00:00.676 5d3e Manual compaction at level-0 from '\x00\x0c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0c\x00\x00\x05' @ 480 : 1
+2023/11/13-01:00:00.676 5d3e Compacting 1@0 + 1@1 files
+2023/11/13-01:00:00.680 5d3e Generated table #35@0: 114 keys, 4402 bytes
+2023/11/13-01:00:00.680 5d3e Compacted 1@0 + 1@1 files => 4402 bytes
+2023/11/13-01:00:00.684 5d3e compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/13-01:00:00.684 5d3e Delete type=2 #34
+2023/11/13-01:00:00.684 5d3e Manual compaction at level-0 from '\x00\x0c\x00\x00\x05' @ 480 : 1 .. '\x00\x0d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/13-01:00:07.960 5d3d Level-0 table #37: started
+2023/11/13-01:00:07.964 5d3d Level-0 table #37: 4523 bytes OK
+2023/11/13-01:00:07.968 5d3d Delete type=0 #33
+2023/11/13-01:00:07.968 5d3d Delete type=2 #31
+2023/11/13-01:00:07.969 5d3d Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x002\x006\x006\x000\x003\x009\x006\x009\x001\x007\x00:\x00w\x00e\x00b\x00:\x005\x004\x001\x009\x009\x007\x00b\x00b\x00f\x00b\x00c\x003\x00f\x006\x00a\x007\x00a\x004\x003\x009\x003\x00c' @ 515 : 1
+2023/11/13-01:00:07.969 5d3d Compacting 1@0 + 1@1 files
+2023/11/13-01:00:07.973 5d3d Generated table #38@0: 119 keys, 4310 bytes
+2023/11/13-01:00:07.973 5d3d Compacted 1@0 + 1@1 files => 4310 bytes
+2023/11/13-01:00:07.977 5d3d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/11/13-01:00:07.977 5d3d Delete type=2 #35
+2023/11/13-01:00:07.977 5d3d Delete type=2 #37
+2023/11/13-01:00:07.978 5d3d Manual compaction at level-0 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x002\x006\x006\x000\x003\x009\x006\x009\x001\x007\x00:\x00w\x00e\x00b\x00:\x005\x004\x001\x009\x009\x007\x00b\x00b\x00f\x00b\x00c\x003\x00f\x006\x00a\x007\x00a\x004\x003\x009\x003\x00c' @ 515 : 1 .. (end); will stop at (end)
+2023/11/13-01:00:07.978 5d3d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x002\x006\x006\x000\x003\x009\x006\x009\x001\x007\x00:\x00w\x00e\x00b\x00:\x005\x004\x001\x009\x009\x007\x00b\x00b\x00f\x00b\x00c\x003\x00f\x006\x00a\x007\x00a\x004\x003\x009\x003\x00c' @ 527 : 1
+2023/11/13-01:00:07.978 5d3d Compacting 1@1 + 1@2 files
+2023/11/13-01:00:07.982 5d3d Generated table #39@1: 36 keys, 3260 bytes
+2023/11/13-01:00:07.982 5d3d Compacted 1@1 + 1@2 files => 3260 bytes
+2023/11/13-01:00:07.986 5d3d compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/13-01:00:07.986 5d3d Delete type=2 #5
+2023/11/13-01:00:07.986 5d3d Delete type=2 #38
+2023/11/13-01:00:07.987 5d3d Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x007\x002\x006\x006\x000\x003\x009\x006\x009\x001\x007\x00:\x00w\x00e\x00b\x00:\x005\x004\x001\x009\x009\x007\x00b\x00b\x00f\x00b\x00c\x003\x00f\x006\x00a\x007\x00a\x004\x003\x009\x003\x00c' @ 527 : 1 .. (end); will stop at (end)
