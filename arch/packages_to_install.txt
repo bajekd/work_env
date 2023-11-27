@@ -46,4 +46,5 @@ wget
 xclip
 xmind
 xorg-xinit
+zip
 zoom
