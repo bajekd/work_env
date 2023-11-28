@@ -80,11 +80,14 @@ alias mr='make run'
 #--------------------------
 # git
 #--------------------------
-alias ga='git add'
-alias gb='git branch'
-alias gc='git commit'
-alias gd='git diff'
+alias gc='git clone'
 alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+alias gc='git commit'
+alias gb='git branch'
+alias gsw='git switch'
+alias gsc='git switch -c'
 alias gco='git checkout'
 alias glg='git log --color --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'
 alias gpp='git pull; git push'
