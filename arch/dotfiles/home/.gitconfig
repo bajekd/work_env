@@ -3,25 +3,27 @@
 	name = Błażej Dobek
 [core]
 	editor = nvim
+	pager = diff-so-fancy | less --tabs=4 -RF
+[interactive]
+	diffFilter = diff-so-fancy --patch
 
 # Dracula Dark Theme
-
 [color]
-  ui = auto
+	ui = true
 [color "branch"]
   current = cyan bold reverse
   local = white
   plain =
   remote = cyan
 [color "diff"]
-  commit =
-  func = cyan
+	commit = yellow bold
+	func = 146 bold
   plain =
-  whitespace = magenta reverse
-  meta = white
-  frag = cyan bold reverse
-  old = red
-  new = green
+	whitespace = red reverse
+	meta = 11
+	frag = magenta bold
+	old = red bold
+	new = green bold
 [color "grep"]
   context =
   filename =
@@ -45,3 +47,8 @@
   unmerged = magenta bold reverse
   untracked = red
   updated = green bold
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
