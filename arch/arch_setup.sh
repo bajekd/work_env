@@ -4,7 +4,7 @@
 swap_size=8192
 country=Poland
 partition_with_swap_file=/dev/nvme0n1p2
-path_to_backup=/run/usb/work-envs/arch
+path_to_backup=/run/usb/work_envs/arch
 
 #---------------------
 # swapfile
@@ -44,9 +44,16 @@ rm -rf ~/Downloads/paru
 cd $path_to_backup
 
 #---------------------
-# install packages
+# install packages, but only if not alreay installed
 #---------------------
-paru -S --noconfirm - < $path_to_backup/packages_to_install.txt # list has to have only packages to install (no comments, no reinstallations etc (abort process)); paru -Qe
+package_list="$path_to_backup/packages_to_install.txt" # list has to have only packages to install (no comments, no reinstallations etc (abort process)); paru -Qe
+while IFS= read -r package; do
+    if ! paru -Qi "$package" &> /dev/null; then
+        paru -S --noconfirm "$package"
+    else
+        echo "Package $package is already installed."
+    fi
+done < "$package_list"
 
 #--------------------
 # config
