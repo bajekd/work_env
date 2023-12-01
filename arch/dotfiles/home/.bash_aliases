@@ -1,57 +1,10 @@
-function update () 
-{ 
-    echo "Update pacman mirror list"
-    sudo reflector --country Poland --protocol https --sort rate --save /etc/pacman.d/mirrorlist
-    cat /etc/pacman.d/mirrorlist
-    echo "-----------------------"
-    
-    echo -e "\nUpdating packages"
-    paru -Syyu;
-    echo "-----------------------"
-
-    echo -e "\nUninstalling unnecessary packages"
-    if [[ $(paru -Qdtq) ]]; then
-        paru -Rns $(paru -Qdtq)
-    else
-        echo -e "No unnecessary packages found"
-    fi
-    echo "-----------------------"
-
-    echo -e "\n Remove pacman cache"
-    paru -Sc --noconfirm; # Remove cached packages that are not currently installed
-    paccache -r; # Remove all cached packages but the 3 most recent package versions
-    echo "-----------------------"
-
-    echo -e "\n Remove ~/.cache/*"
-    rm -rf ~/.cache/*
-    echo "-----------------------"
-
-    echo -e "\n Remove unnecessary files"
-    rm -rf ~/.psql_history ~/.bash_history ~/.python_history ~/.cache
-    rm -rf ~/.cargo/registry 
-    rm -rf ~/.local/share/recently-used.xbel
-    rm -rf ~/.irb_history
-    rm -rf ~/.rdbg_history
-}
-
-function rds () {
-    if [[ $# != 1 ]]; then
-    	echo "redshift: option requires an argument -- 'O'"
-	return 1
-    fi
-
-    pkill redshift
-    if [[ $? == 0 ]]; then
-	sleep 5
-    fi
-
-    redshift -m randr:screen=all -P -O $1
-}
-
 #--------------------------
 # bash
 #--------------------------
 alias sudo='sudo '
+
+alias update='bajek_update.sh'
+alias rds='bajek_rds.sh'
 
 alias grep='grep --color=auto'
 alias ls='ls -alh --color=auto'
@@ -80,17 +33,42 @@ alias mr='make run'
 #--------------------------
 # git
 #--------------------------
-alias gc='git clone'
-alias gs='git status'
-alias gd='git diff'
 alias ga='git add'
-alias gc='git commit'
 alias gb='git branch'
+alias gbi='git biscet'
+alias gc='git clean -i'
+alias gca='bajek_git_clean.sh'
+alias gcl='git clone'
+alias gcm='git commit -m'
+alias gco='git checkout'
+alias gcp='git cherry-pick'
+
+alias gd='git diff'
+alias gds='git diff --staged'
+alias gf='git fetch'
+alias gm='git merge'
+alias gl="git log --format=format:'Commit %C(blue)%H%C(reset) %C(bold blue)%d%C(reset) %nAuthor: %C(green)%an%C(reset) %C(dim green)(%ae)%C(reset)%nDate:   %C(yellow)%cr%C(reset) %C(dim yellow)(%cd)%C(reset)%n%n    %s%n'"
+alias glo="git log --format=format:'%C(blue)%h%C(reset) %C(bold blue)%d%C(reset) %s%n'"
+alias glg='glo --graph'
+alias gpl='git pull'
+alias gpp='git pull; git push'
+alias gpu='git push'
+
+alias gre='git revert'
+alias grs='git reset --soft'
+alias gr='git reset'
+alias grb='git rebase'
+alias grh='git reset --hard'
+alias grm='git rm --cached'
+alias grl='git reflog'
+
+alias gs='git status'
 alias gsw='git switch'
 alias gsc='git switch -c'
-alias gco='git checkout'
-alias glg='git log --color --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit'
-alias gpp='git pull; git push'
+alias gsl='git stash list'
+alias gss='git stash save'
+alias gsa='git stash apply'
+alias gsd='git stash drop'
 
 #--------------------------
 # ruby
