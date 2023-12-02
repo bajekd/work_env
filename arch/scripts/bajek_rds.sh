@@ -7,7 +7,7 @@ fi
 
 pkill redshift
 if [[ $? == 0 ]]; then
-sleep 3
+sleep 5
 fi
 
 redshift -m randr:screen=all -P -O $1
