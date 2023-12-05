@@ -18,7 +18,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "H", "dhP`[v`]")
 vim.keymap.set("v", "L", "dp`[v`]")
 
--- splits 
+-- splits
 vim.keymap.set("n", "<leader>v", ":vsplit<cr>")
 vim.keymap.set("n", "<leader>x", ":split<cr>")
 
@@ -26,10 +26,11 @@ vim.keymap.set("n", "<leader>x", ":split<cr>")
 vim.keymap.set("n", "K", ":bn<cr>")
 vim.keymap.set("n", "J", ":bp<cr>")
 
--- set window movement 
+-- set window movement
 vim.keymap.set('n', '<leader>h', '<C-w>h')
 vim.keymap.set('n', '<leader>j', '<C-w>j')
-vim.keymap.set('n', '<leader>k', '<C-w>k') vim.keymap.set('n', '<leader>-l', '<C-w>l')
+vim.keymap.set('n', '<leader>k', '<C-w>k')
+vim.keymap.set('n', '<leader>-l', '<C-w>l')
 vim.keymap.set('n', '<leader>l', '<C-w>l')
 
 -- resize by arrows in normal mode
@@ -42,14 +43,15 @@ vim.keymap.set("n", "<down>", ":horizontal resize -5<cr>")
 vim.keymap.set("n", "<leader>q", ":q<cr>")
 
 -- yanking and pasting
-vim.keymap.set("x", "<leader>p", [["_dP]]) -- copy, highlight and still paste
-vim.keymap.set({"n", "v"}, "<leader>y", [["+y]]) -- copy to system clipbord
+vim.keymap.set("x", "<leader>p", [["_dP]])       -- copy, highlight and still paste
+vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]]) -- copy to system clipbord
 
 -- quit hlsearch
 vim.keymap.set("n", "qq", ":noh<cr>")
 
 -- substitute text under cursor
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+vim.keymap.set("n", "<leader>s", [[:%s/\<C-r><C-w>\>/<C-r><C-w>/gcI<Left><Left><Left>]])
+vim.keymap.set('x', '<leader>s', [["hy:%s/<C-r>=substitute(escape(@h, '/'), '\n', '', 'g')<CR>//gcI<left><left><left>]])
 
 -- reload
 vim.keymap.set("n", "<leader>r", ":so<cr>")

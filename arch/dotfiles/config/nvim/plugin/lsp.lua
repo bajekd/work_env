@@ -10,10 +10,7 @@ require('mason-lspconfig').setup({
 require('lspconfig').lua_ls.setup({
   settings = { Lua = { diagnostics = { globals = { 'vim' } } } },
 })
--- require('lspconfig').solargraph.setup({
---   filetypes = { 'eruby', 'ruby' }
--- })
---
+
 -- default handlers set as true
 -- vim.diagnostic.config({
 --   virtual_text = false,

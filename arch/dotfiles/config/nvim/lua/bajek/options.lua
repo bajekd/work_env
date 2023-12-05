@@ -1,12 +1,12 @@
 vim.opt.termguicolors = true
--- vim.opt.clipboard = 'unnamedplus'                      -- copy/paste to system clipboard
+-- vim.opt.clipboard = 'unnamedplus'  -- copy/paste to system clipboard
 
--- vim.opt.autochdir = true                            -- set the working directory automatically to the parent folder of the buffer file
+-- vim.opt.autochdir = true           -- set the working directory automatically to the parent folder of the buffer file
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.scrolloff = 10 -- keep X lines above and below cursor when scrolling
+vim.opt.scrolloff = 10    -- keep X lines above and below cursor when scrolling
 -- vim.opt.colorcolumn = '120'
--- vim.opt.wrap = false                                -- display long lines as just one line
+-- vim.opt.wrap = false   -- display long lines as just one line
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
