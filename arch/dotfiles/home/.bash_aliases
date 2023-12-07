@@ -72,6 +72,8 @@ alias gss='git stash save'
 alias gsa='git stash apply'
 alias gsd='git stash drop'
 
+alias gwt='git worktree'
+
 #--------------------------
 # ruby
 #--------------------------
