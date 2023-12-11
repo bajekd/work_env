@@ -117,6 +117,7 @@ cp -r $path_to_backup/dotfiles/config/vifm/ ~/.config/vifm
 # vivaldi
 mkdir -pv ~/.config/vivaldi
 cp -r $path_to_backup/dotfiles/config/vivaldi/Default ~/.config/vivaldi
+sudo rm -f /usr/bin/vivaldi-stable # same as /usr/bin/vivaldi
 
 #--------------------
 # home 
@@ -165,20 +166,14 @@ chmod 600 ~/.ssh/config ~/.ssh/github ~/.ssh/github.pub
 
 #--------------------
 # system
-#   stuff with iwlwifi and NetworkManager 
-#   desktop entries clean up + vifm desktop entry
+#   clean up desktop entries
+#   disable caps_lock after suspension and hibernation (systemd 'hook')
 #   dracula theme gtk
 #   pacman.conf
+#   stuff with iwlwifi and NetworkManager 
 #   set limits for journalctl logs
 #   set keyboard layout
 #--------------------
-
-# stuff with iwlwifi and NetworkManager 
-# power saving iwlwifi --> https://askubuntu.com/questions/1283313/unstable-wifi-connection-on-ubuntu-20-04
-# set beacon timeout more than default 100 --> ilwifi
-# disable connectivity checking --> NetworkManager
-cat $path_to_backup/dotfiles/system/iwlwifi.conf | sudo tee /etc/modprobe.d/iwlwifi.conf
-cat $path_to_backup/dotfiles/system/NetworkManager.conf | sudo tee /etc/NetworkManager/NetworkManager.conf
 
 # clean up desktop entries
 sudo rm /usr/share/applications/assistant.desktop
@@ -204,12 +199,22 @@ sudo rm /usr/share/applications/wheelmap-geo-handler.desktop
 sudo rm /usr/share/applications/xscreensaver-settings.desktop
 sudo rm /usr/share/applications/xscreensaver.desktop
 
+# disable caps_lock after suspension and hibernation (systemd 'hook')
+sudo cp $path_to_backup/systemd/disable_caps_lock /lib/systemd/system-sleep/
+
 # dracula theme gtk
 sudo mkdir -pv /usr/share/themes/dracula
 sudo cp -r $path_to_backup/dotfiles/system/dracula_gtk/* /usr/share/themes/dracula/
 
 # pacman.conf
 cat $path_to_backup/dotfiles/system/pacman.conf | sudo tee /etc/pacman.conf
+
+# stuff with iwlwifi and NetworkManager 
+# power saving iwlwifi --> https://askubuntu.com/questions/1283313/unstable-wifi-connection-on-ubuntu-20-04
+# set beacon timeout more than default 100 --> ilwifi
+# disable connectivity checking --> NetworkManager
+cat $path_to_backup/dotfiles/system/iwlwifi.conf | sudo tee /etc/modprobe.d/iwlwifi.conf
+cat $path_to_backup/dotfiles/system/NetworkManager.conf | sudo tee /etc/NetworkManager/NetworkManager.conf
 
 # set limits for journalctl logs 
 sudo journalctl --vacuum-size=250M
