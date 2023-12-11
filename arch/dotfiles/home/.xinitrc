@@ -1,9 +1,6 @@
 #!bin/bash
 
-# Available options with “caps”
-# grep "caps" /usr/share/X11/xkb/rules/xorg.lst
-
-# Make caps lock an additional esc; both shift keys toggle caps lock
+# Available options with “caps” => grep "caps" /usr/share/X11/xkb/rules/xorg.lst
 setxkbmap -option caps:escape,shift:both_capslock
 
 # Start the window manager (i3)
