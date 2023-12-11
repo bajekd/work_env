@@ -1,0 +1,11 @@
+#!/bin/bash
+case $1/$2 in
+  post/*)
+    sleep 5
+    export DISPLAY=:0
+    export XAUTHORITY="/home/bajek/.Xauthority"
+    sleep 5
+    setxkbmap -option caps:escape,shift:both_capslock
+    ;;
+esac
+
