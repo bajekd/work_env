@@ -73,7 +73,7 @@ done < "$package_list"
 
 # alacritty
 mkdir -pv ~/.config/alacritty
-cat $path_to_backup/dotfiles/config/alacritty/alacritty.yml > ~/.config/alacritty/alacritty.yml
+cat $path_to_backup/dotfiles/config/alacritty/alacritty.toml > ~/.config/alacritty/alacritty.toml
 
 # flameshot
 # run in terminal: `flameshot config` to change config
